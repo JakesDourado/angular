@@ -1,19 +1,24 @@
 {
-    "products": [
-        {
-            "ide": 1,
-            "name": "Caneta BIC Preta",
-            "price": 5.89
-        },
-        {
-            "ide": 2,
-            "name": "Mac Book",
-            "price": 13000.89
-        },
-        {
-            "ide": 3,
-            "name": "Nokia",
-            "price": 600.09
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Mac Book",
+      "price": 13000.89
+    },
+    {
+      "id": 3,
+      "name": "Nokia",
+      "price": 600.09
+    },
+    {
+      "name": "tv",
+      "price": "1000.00",
+      "id": 4
+    }
+  ]
 }
