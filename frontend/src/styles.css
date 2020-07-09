@@ -2,8 +2,8 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-.red{
-    color: rgb(227, 94, 107);
+.blue{
+    color: rgb(87, 30, 180);
 }
 .v-middle{
     vertical-align: middle;
