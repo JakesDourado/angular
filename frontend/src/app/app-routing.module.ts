@@ -1,3 +1,4 @@
+import { ProductUpdataComponent } from './components/product/product-updata/product-updata.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -18,7 +19,12 @@ const routes: Routes = [
   {
     path: "products/create",
     component: ProductCreateComponent
+  },
+  {
+    path: "products/update/:id",
+    component: ProductUpdataComponent
   } 
+
 
 ];
 
