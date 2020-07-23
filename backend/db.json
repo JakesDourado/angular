@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "price": 5.89
+      "price": "5.80"
     },
     {
       "id": 2,
@@ -36,12 +36,12 @@
       "id": 7
     },
     {
-      "name": "xxx",
+      "name": "Etiqueta térmica",
       "price": "100.00",
       "id": 8
     },
     {
-      "name": "eee",
+      "name": "Bopp transparente",
       "price": "222",
       "id": 9
     },
