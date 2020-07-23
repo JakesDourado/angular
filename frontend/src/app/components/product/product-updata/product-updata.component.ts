@@ -15,26 +15,29 @@ export class ProductUpdataComponent implements OnInit {
   // e em seguida faz a injeção no constructor "private route: ActivatedRoute"
   // e no iniciar ngOnInit, já coloca "this.productService.readById;"
   // depois faz a complementação como diz os proximos comentários
-  
-  
+
+
   constructor(
     private productService: ProductService,
     private router: Router,
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-const id = this.route.snapshot.paramMap.get('id')
-    this.productService.readById(id).subscribe(product =>{
-      this.product = product
+    const id = this.route.snapshot.paramMap.get('id')
+    this.productService.readById(id).subscribe(product => {
+      this.product = product;
     });
 
   }
 
   updateProduct(): void {
-
+    this.productService.updata(this.product).subscribe(() => {
+      this.productService.showMessage('Produto atualizado com sucesso !');
+      this.router.navigate(['/products']);
+    })
   }
   cancel(): void {
-    this.router.navigate(['/products'])
+    this.router.navigate(['/products']);
   }
 
 }
